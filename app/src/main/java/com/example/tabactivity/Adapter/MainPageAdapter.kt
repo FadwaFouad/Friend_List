@@ -1,10 +1,11 @@
-package com.example.tabactivity
+package com.example.tabactivity.Adapter
 
-import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Lifecycle
 import androidx.viewpager2.adapter.FragmentStateAdapter
+import com.example.tabactivity.Fragment.FavoritesFragment
+import com.example.tabactivity.Fragment.HomeFragment
 
 class MainPageAdapter(fm: FragmentManager, lc: Lifecycle) : FragmentStateAdapter(fm, lc) {
     override fun getItemCount(): Int {
