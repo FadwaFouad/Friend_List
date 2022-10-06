@@ -25,6 +25,6 @@ class MainActivity : AppCompatActivity() {
                 1-> tab.icon = getDrawable(R.drawable.ic_baseline_favorite_24)
             }
         }.attach()
-        viewPager.currentItem = 1
+        viewPager.currentItem = 0
     }
 }
